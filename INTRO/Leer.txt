@@ -1,4 +1,0 @@
-Las acciones basicas son las siguientes
-commit: Nos permite comentar los cambios que hemos hecho
-Push: Sube los cambios a nuestro repositorio
-Pull: Nos permite descargar los cambios al repo.
