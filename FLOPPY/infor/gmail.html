@@ -9,64 +9,124 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
     <link rel="stylesheet" href="../fonts/animate.css ">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="container text-center bg-info">
+<body class=" text-center ">
+ <div class="hola">
+   <img src="../images/logo.png" alt="imagen1">
+   <p class="bounceInDown animated">Bienvenido al mejor blogg virtual
+   </p>
 
-
-   <a href="../index.html"><img src="../images/logo.png" alt="15"></a>
-    <p class="bounceInDown animated">Bienvenido al mejor blogg virtual
-    </p>
-    <nav class="nav nav-pills bg-dark">
+    <nav class="nav nav-pills bg-dark d-flex justify-content-center">
         <a class="nav-link" href=""> 
             </aclas>
-            <a class="nav-link active" href="../index.html">Gmail</a>
-            <a class="nav-link" href="opiniones.html">Opiniones</a>
-            <a class="nav-link" href="datos.html">Datos</a>
-            <a class="nav-link" href="redundancia.html">Redundacia</a>
-            <a class="nav-link" href="novedades.html">Novedades</a>
-            <a class="nav-link" href="mas.html">Mas</a>
+            <a class="nav-link" href="../index.html"><i class="fa fa-home" aria-hidden="true"></i><br> inicio
+              </aclas>
+            <a class="nav-link active" href="../index.html"><i class="fa fa-envelope-o" aria-hidden="true"></i><br>
+              Gmail</a>
+            <a class="nav-link" href="opiniones.html"><i class="fa fa-envelope-open"
+                aria-hidden="true"></i>Opiniones</a>
+            <a class="nav-link" href="datos.html"><i class="fa fa-comments-o" aria-hidden="true"></i>Datos</a>
+            <a class="nav-link" href="redundancia.html"><i class="fa fa-pencil-square-o" aria-hidden="true">
+              </i>Posts</a>
+            <a class="nav-link" href="novedades.html"><i class="fa fa-crop" aria-hidden="true"></i>Novedades</a>
+            <a class="nav-link" href="mas.html"><i class="fa fa-plus" aria-hidden="true"></i>Mas</a>
             <nav class="">
                 <form class="form-inline">
                   <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                   <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
-              </nav>
-    </nav>
-    <div class="container text-center  bounceInDown animated">
-
-        <form action="">
-             <h1 class="text-center ">formularios</h1>
-        <form action="">
-          <div class="">
-              <div class="mb-3">
-            <i class="fa fa-user-circle" aria-hidden="true"></i><input class="bg-light col-4" type="text" name="nombre"
-             id="" placeholder="First Name">
-               </div> <div class="mb-3">
-              <i class="fa fa-user-circle" aria-hidden="true"></i><input class="bg-light col-4" type="text" name="nombre"
-                  id="" placeholder="Last Name">
-             </div>
-             
-             <div class="mb-3">
-                
-               <i class="fa fa-envelope-o" aria-hidden="true"></i><input class="bg-light col-4" type="text" name="nombre"
-                   id="" placeholder="Email Adress">
-               </div>
-               <div class="mb-3">
-               <i class="fa fa-phone-square" aria-hidden="true"></i> <input class="bg-light col-4" type="text" name="nombre"
-                   id="" placeholder="Phone">
-                 </div>
-   
-        <div class="mb-3">
-            <i class="fa fa-lock" aria-hidden="true"></i><input class="bg-light col-4" type="text" name="nombre"
-             id="" placeholder="Create Password">
-             </div>
-        
-    </div>
-    </form>
-    <h2>
-        aqui en FLOPPY encontraras varias formas de entretenimiento como noticias informaciones redundantes ext
-    </h2>
+               </nav>
+    </nav></div>
+    <section class="container form-control mt-2 zoomIn animated"
+      style="height: 608px; width: 800px; background: rgba(128, 128, 128, 0.795); color: white;">
+    
+      <h2 class="mb-3 zoomIn animated">Registrate</h2>
+    
+      <div class="row zoomIn animated">
+        <div class="col">
+          <label class="lead" for="nombre">Nombre:</label>
+          <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Nombre">
+        </div>
+        <div class="col">
+          <label class="lead" for="apellido">Apellido:</label>
+          <input class="form-control" type="text" name="apellido" id="apellido" placeholder="Apellido">
+        </div>
+      </div>
+    
+      <div class="row mt-2 zoomIn animated">
+        <div class="col">
+          <label class="lead" for="correo">Correo</label>
+          <input class="form-control" type="email" name="correo" id="correo" placeholder="Correo Electronico">
+        </div>
+      </div>
+    
+      <div class="row mt-2 zoomIn animated">
+        <div class="col">
+          <label class="lead" for="telefono">Telefono</label>
+          <input class="form-control" type="tel" name="telefono" id="telefono" placeholder="Numero de Telefono">
+        </div>
+        <div class="col" style="font-size: 18px;">
+          <label class="d-flex lead" for="sexo">Sexo</label>
+          <label for="sexo"><input type="radio" name="sexo" id="sexo"> Hombre</label>
+          <label for="sex"><input class="ml-4" type="radio" name="sexo" id="sex"> Mujer</label>
+        </div>
+      </div>
+    
+      <div class="row mt-3 zoomIn animated">
+        <div class="col">
+          <label class="lead" for="contraseña">Contraseña</label>
+          <input class="form-control" type="password" name="contraseña" id="contraseña" placeholder="Contraseña">
+        </div>
+        <div class="col">
+          <label class="lead" for="confirmar">Confirmar Contraseña</label>
+          <input class="form-control" type="password" name="confirmar" id="confirmar" placeholder="Confirmar Contraseña">
+        </div>
+      </div>
+    
+      <div class="row mt-2 zoomIn animated">
+        <div class="col">
+          <span class="lead">Recordar Contraseña</span>
+          <input class="mr-2" type="checkbox" name="recordarme" id="Recordarme">
+        </div>
+      </div>
+    
+      <div class="row mt-4 zoomIn animated">
+        <input class="btn btn-light w-25 registrarse flash animated delay-7s slow" style="margin-left: 15px;" type="submit"
+          value="Registrarse">
+      </div>
+    
+      <div class="row mt-2">
+        <div class="col-5">
+          <hr class="zoomIn animated">
+        </div>
+        <div class="col-2 text-center zoomIn animated">o</div>
+        <div class="col-5">
+          <hr class="zoomIn animated">
+        </div>
+      </div>
+    
+      <div class="container mt-3 zoomIn animated">
+        <a target="black" class="btn btn-primary" style="margin-left: 15px;"
+          href="https://accounts.google.com/ServiceLogin/identifier?hl=es&amp;passive=true&amp;continue=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Diniciar%2Bsesion%2Ben%2Bgoogle%255C%26oq%3Diniciar%2Bsesion%2Ben%2Bgoogle%255C%26aqs%3Dchrome..69i57j0l4j69i60l3.2013j0j7%26sourceid%3Dchrome%26ie%3DUTF-8&amp;flowName=GlifWebSignIn&amp;flowEntry=AddSession">
+          <p class="flash animated delay-9s" style="height: 9px; font-size: 19px;"><i class="fa fa-google"
+              aria-hidden="true"></i> Inicia Sesion con Google</p>
+        </a>
+    
+        <a target="black" class="btn btn-secondary" style="margin-left: 190px;"
+          href="https://www.facebook.com/login.php?skip_api_login=1&amp;api_key=1705914966164020&amp;kid_directed_site=0&amp;app_id=1705914966164020&amp;signed_next=1&amp;next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fresponse_type%3Dcode%26client_id%3D1705914966164020%26redirect_uri%3Dhttps%253A%252F%252Fwww.000webhost.com%252Fcpanel-login%252Foauth%252Ffacebook%26scope%3Demail%252C%2Bpublic_profile%26state%3DHA-86C923ESVZXTNRWIFDOY57QLJBA1U4MPH0KG%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3Db88d56f0-8287-49cf-942b-06d64c85b943&amp;cancel_url=https%3A%2F%2Fwww.000webhost.com%2Fcpanel-login%2Foauth%2Ffacebook%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3DHA-86C923ESVZXTNRWIFDOY57QLJBA1U4MPH0KG%23_%3D_&amp;display=page&amp;locale=es_LA&amp;pl_dbl=0">
+          <p class="flash animated delay-10s" style="height: 9px; font-size: 19px;"><i class="fa fa-facebook-official "
+              aria-hidden="true"></i> Inicia Sesion con Facebook</p>
+        </a>
+      </div>
+    
+    </section>
+      
+    
+    <footer class="re">
+      Alex enterteiment
+    </footer>
 </body>
 
 </html>
